@@ -24,16 +24,24 @@
 
 // document.body.innerHTML = html;
 
-const age = 100.5;
-const name = "wes";
+// const age = 100.5;
+// const name = "wes";
 
-// const b = 20;
-// const a = 10;
+// // const b = 20;
+// // const a = 10;
 
-const smarties = 20;
-const kids = 3;
-const eachKidGets = Math.floor(smarties / kids);
-const dadGets = smarties % kids;
-console.log(`each kids get ${eachKidGets}`);
+// const smarties = 20;
+// const kids = 3;
+// const eachKidGets = Math.floor(smarties / kids);
+// const dadGets = smarties % kids;
+// console.log(`each kids get ${eachKidGets}`);
 
-const price = 1034;
+// const price = 1034;
+
+// OBJECTS
+
+const person = {
+  first: "wes",
+  last: "bos",
+  age: 100,
+};
