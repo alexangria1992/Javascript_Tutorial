@@ -40,27 +40,35 @@
 
 // OBJECTS
 
-const person = {
-  first: "wes",
-  last: "bos",
-  age: 100,
-};
+// const person = {
+//   first: "wes",
+//   last: "bos",
+//   age: 100,
+// };
 
-let dog;
-console.log(dog);
-dog = "snickers";
+// let dog;
+// console.log(dog);
+// dog = "snickers";
 
-let somethingUndefined;
-const somethingNull = null;
+// let somethingUndefined;
+// const somethingNull = null;
 
-const cher = {
-  first: "cher",
-};
+// const cher = {
+//   first: "cher",
+// };
 
-const teller = {
-  first: "Raymond",
-  last: "Teller",
-};
+// const teller = {
+//   first: "Raymond",
+//   last: "Teller",
+// };
 
-teller.first = "Teller";
-teller.last = null;
+// teller.first = "Teller";
+// teller.last = null;
+
+const isDrawing = false;
+let age = 18;
+const ofAge = age > 19;
+console.log(ofAge);
+
+age = 100;
+const age2 = 100;
