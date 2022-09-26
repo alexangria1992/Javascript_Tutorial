@@ -7,13 +7,15 @@
     <title>Document</title>
   </head>
   <body>
+    <img class="nice cool" src="https://picsum.photos/600" alt="" />
+
     <div class="items">
       <div class="item">
         <img src="https://picsum.photos/200" alt="" />
         <p>Hi I'm a item</p>
       </div>
       <div class="item item2">
-        <img src="https://picsum.photos/200" alt="" />
+        <img src="https://picsum.photos/200" />
         <h2>
           I am heading
           <span>I am hidden</span>
@@ -28,6 +30,16 @@
     <style>
       h2 span {
         display: none;
+      }
+
+      img {
+        transition: all 0.2s;
+      }
+
+      .round {
+        border-radius: 50%;
+        /* transition: all 0.2s; */
+        transform: rotate(20deg);
       }
     </style>
     <script src="./the-dom.js"></script>
