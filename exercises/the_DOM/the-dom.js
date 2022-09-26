@@ -34,3 +34,17 @@ function toggleRound(){
 }
 
 pic.addEventListener('click', toggleRound)
+
+pic.alt = 'Cute Pup';
+pic.width = 200;
+// pic.addEventListener("load", function() {
+//     console.log(pic.naturalWidth);
+// })
+pic.setAttribute('wes-is-cool', 'Really Cute Pup')
+console.log(pic.getAttribute('alt'))
+const custom = document.querySelector(".custom")
+console.log(custom.dataset);
+
+custom.addEventListener("click", function(){
+    alert(`Welcome ${custom.dataset.name} ${custom.dataset.last}`)
+})
