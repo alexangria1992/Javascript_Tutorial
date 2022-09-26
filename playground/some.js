@@ -1,4 +1,6 @@
-const p = document.querySelector("p");
+// prettier-ignore
+
+const p = document.querySelector('p');
 console.log("I'm in another file");
 
 const age = 100;
